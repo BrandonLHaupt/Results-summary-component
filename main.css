@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* 
+- Light red: #ff5757
+- Orangey yellow: #ffb01f
+- Green teal: #00bd91
+- Cobalt blue: #1125d4
+*/
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Hanken Grotesk", serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    gap: 2rem;
+    width: 600px;
+    height: 450px;
+    /* background-color: green; */
+}
+
+.left {
+    background: linear-gradient(0deg, #2e2be9 0%, #7857ff 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    width: 325px;
+    padding: 1.5rem;
+}
+
+.left p {
+    color: #ebf1ff;
+    width: 85%;
+    text-align: center;
+}
+
+.left .circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg,#7857ff 0%,  #2e2be9 60%);
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.great {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.circle p {
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.left h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    width: 300px;
+}
+
+.right h2 {
+    font-size: 18px;
+    padding-bottom: .5rem;
+}
+
+.row, .sideL{
+    display: flex;
+    align-items: center;
+}
+
+.sideL {
+    gap: 10px;
+}
+
+.row {
+    justify-content: space-between;
+    height: 50px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+button {
+    background-color: #303b5a;
+    color: white;
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+    margin-top: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background: linear-gradient(0deg, #2e2be9 0%, #7857ff 100%);
+}
+
+.gray {
+    color: gray;
+}
+
+.reaction {
+    background-color: hsla(0, 100.00%, 67.10%, 0.34);
+}
+
+.memory {
+    background-color: hsla(39, 100.00%, 56.10%, 0.34);
+}
+
+.verbal{
+    background-color: hsla(166, 100%, 37%, 0.251);
+}
+
+.visual{
+    background-color: hsla(234, 85%, 45%, 0.26);
+}
+
+.sideR p {
+    color: black !important;
+}
+
+.reaction p {
+    color: #ff5757;
+} 
+
+
+.memory {
+    color: #ffb01f;
+}
+
+.verbal {
+    color: #00bd91;
+}
+
+.visual {
+    color: #1125d4;
+}
+
+footer {
+    padding-top: 2rem;
+}
+
